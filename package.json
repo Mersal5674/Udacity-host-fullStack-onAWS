@@ -2,7 +2,7 @@
     "scripts": {
         "backend:install": "cd udagram-api && npm install",
         "frontend:install": "cd udagram-frontend && npm install",
-        "bacend:build": "cd udagram-api && npm build",
+        "backend:build": "cd udagram-api && npm build",
         "frontend:build": "cd udagram-frontend && npm install",
         "backend:test": "cd udagram-api && npm test",
         "frontend:test": "cd udagram-frontend && npm test",
