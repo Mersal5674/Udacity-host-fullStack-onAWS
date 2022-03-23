@@ -16,11 +16,3 @@ jobs:
         name: install the backend node-modules 
         command: | 
           npm run backend:install
-workflows:
-    build_deploy:
-      jobs:
-        - build:
-            filters:
-              branches:
-                only:
-                  - main
