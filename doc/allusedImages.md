@@ -1,3 +1,6 @@
+## OVERALL LOOK ON THE PROJECT ->
+![Getting Started](../images/InfraStructure.png)
+
 ## USED RDS ->
 ![Getting Started](../images/RDS.png)
 
@@ -9,3 +12,9 @@
 
 ## USED CIRCLECI ->
 ![Getting Started](../images/Circleci.png)
+
+## CONFIG CIRCLECI ->
+![Getting Started](../images/CircleciSecret.png)
+
+## PROJECT ON GITHUB AFTER PUSHING IT -> 
+![Getting Started](../images/Github.png)
