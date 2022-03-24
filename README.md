@@ -50,6 +50,7 @@ This is project about deployin a full-stack project on AWS for Udacity nano-degr
     - eb deploy
 
 ![Getting Started](./Images/Application.png)
+- link to my Application: http://udagram-api-dev.eba-qfnbqfhr.us-east-1.elasticbeanstalk.com
 
 9. At last you want to creat a pipline using `circleci`
 ```
