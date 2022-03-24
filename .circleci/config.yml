@@ -26,3 +26,19 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
+      - run:
+          name: Back-End deploy
+          command: |
+            npm run backend:deploy
+      - run:
+          name: Back-End deploy
+          command: |
+            npm run backend:deploy
+workflows:
+    build_deploy:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only:
+                  - main
