@@ -23,7 +23,7 @@ This is project about deployin a full-stack project on AWS for Udacity nano-degr
 3. Check if you have IAM account or not if not, make sure to create `user-groups` and a `user` connected to it, save its `AWS_ACCESS_KEY_ID` | `AWS_SECRET_ACCESS_KEY` as it is gonna be used later with `S3`.
 
 4. Create a AWS `bucket` you are gonna need later to deploy the front-end and the backend as well.
-- my bucket link: http://nemo-bucket.s3-website-us-east-1.amazonaws.com
+
 ![Getting Started](./Images/S3bucket.png)
 ```
 - info to connect to my bucket: 
@@ -50,7 +50,6 @@ This is project about deployin a full-stack project on AWS for Udacity nano-degr
     - eb deploy
 
 ![Getting Started](./Images/Application.png)
-- link to my Application: http://udagram-api-dev.eba-qfnbqfhr.us-east-1.elasticbeanstalk.com
 
 9. At last you want to creat a pipline using `circleci`
 ```
